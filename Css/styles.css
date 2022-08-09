@@ -7,6 +7,10 @@
     background: #f2f2f2;
 }
 
+.color{
+    height: 22px;
+   
+ }
 .color1{
     background: #34495e;
     color: #ffff;
@@ -20,7 +24,7 @@ footer{
     color: #ffff;
 }
 
-bloque{
+.bloque{
     display: flex;
     color: black;
     height: 100px;
@@ -35,7 +39,7 @@ hr{
 hr{
    
     position: absolute;
-    top: 88px;
+    top: 90px;
 }
 *{
 	margin:0px;
@@ -43,8 +47,8 @@ hr{
 }
 
 #header {
-	margin: 35px auto auto auto;
-	width:800px;
+	margin: 40px auto auto auto;
+	width:900px;
 	font-family:Arial, Helvetica, sans-serif;
 	
 }
@@ -61,7 +65,7 @@ ul, ol {
 	background-color:#FFFFFF;
 	color:#01633B;
 	text-decoration:none;
-	padding:10px 12px;
+	padding:12px 15px;
 	display:block;
 }
 
@@ -102,27 +106,7 @@ hr{
 	
 }
 
-/* .bloque{
-	text-align: center;
-	background:rgb(0,0,0,0);
-	padding-right: auto;  
-	padding-top: 90px;
-	border-bottom;
-	width: 150;
-	height: 150;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;
-	;
-	
-	text-size-adjust: 35px;
-	color:black; 
-
-}
-	*/
-
-	.fondo1{
+.fondo1{
 	z-index: -1;
 	position:absolute;
 	top: 151px;
@@ -197,7 +181,7 @@ hr{
 
 .menu-horizontal >li >a {
     display: block;
-    padding: 15px 18px;
+    padding: 15px 25px;
     color: rgb(3, 99, 59);
     
     text-decoration: none;
@@ -297,17 +281,327 @@ position: absolute;
 right: -5px;
 }
 
+.terceraseccion{
+    width: 100%;
+    height: 470px;
+    background: #083607;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(134, 85%, 8%, 0.038), hsla(134, 85%, 8%, 0.022)), url(/Assets/Images/FondoMeso.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(134, 85%, 8%, 0.807), hsla(134, 85%, 8%, 0.637)), url(/Assets/Images/FondoMeso.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 1300px;
+}
+
+
 .h1carrusel{
-	position: absolute;
-	color:rgb(3, 99, 59);
-	width: 500px;
-	top: 2000px;
-	left: 800px;
+	font-weight: 700;
+    font-size: 35pxs;
+    font-family: Open Sans,Arial,sans-serif ;
+    line-height: 35px;
+    text-size-adjust: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
 }
 .h2carrusel{
-	position: absolute;
-	color:rgb(3, 99, 59);
-	width: 500px;
-	top: 2050px;
-	left: 900px;
+	font-family: Open Sans,Arial,sans-serif ;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 25px;
+    font-weight: 10;
+    color:white;
+}
+
+.h3carrusel{
+	font-family: Open Sans,Arial,sans-serif ;
+    text-align: center;
+   
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight:lighter;
+    color:white;
+}
+
+.h4carrusel{
+	font-family: Open Sans,Arial,sans-serif ;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+    color:white;
+}
+.fondgreen{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* ESPACIO PARA NOTICAS */
+
+
+.Noticias{
+    text-align: center;
+    margin-top: 70px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(51,51,51);
+    line-height: 30px;
+  
+}
+
+.contenedorImagenes{    
+                        
+    display: flex;
+    width: 53%;
+    
+    margin: auto;
+    margin-top: 65px;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.contenedorImagenes .imagen{
+    
+    width: 32%;
+    position: relative;
+    right: 41px;
+    height: 415px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);  
+   
+}
+.contenedorImagenes .imagen2{
+    width: 32%;
+    position: relative;
+   
+    height: 390px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+   
+}
+.contenedorImagenes .imagen3{
+    width: 32%;
+    position: relative;
+    left: 45px;
+    height: 390px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+   
+}
+
+.contenedorImagenes .imagen4{
+    width: 32%;
+    position: relative;
+    top: 55px;
+    right: 41px;
+    height: 397px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+   
+}
+
+.contenedorImagenes .imagen5{
+    width: 32%;
+    position: relative;
+    top: 35px;
+    height: 397px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+    
+}
+
+.contenedorImagenes .imagen6{
+    width: 32%;
+    position: relative;
+    top: 35px;
+    left: 45px;
+    height: 300px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+  
+    }
+
+.contenedorImagenes .imagen7{
+width: 32%;
+position: relative;
+top: 110px;
+right: 41px;
+height: 397px;
+margin-bottom: 5px;
+box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+
+}
+
+.contenedorImagenes .imagen8{
+width: 32%;
+position: relative;
+top: 110px;
+
+height: 515px;
+margin-bottom: 5px;
+box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+
+}
+
+.contenedorImagenes .imagen9{
+width: 32%;
+position: relative;
+top: 35px;
+left: 45px;
+height: 510px;
+margin-bottom: 5px;
+box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+
+}
+
+.imagen img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen2 img{
+    width: 100%;
+    height: 52%;
+    object-fit: cover;
+}
+
+.imagen3 img{
+    width: 100%;
+    height: 52%;
+    object-fit: cover;
+}
+
+.imagen4 img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen5 img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen6 img{
+    width: 100%;
+    height: 42%;
+    object-fit: cover;
+}
+
+.imagen7 img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen8 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.imagen9 img{
+    width: 100%;
+    height: 57%;
+    object-fit: cover;
+}
+
+
+
+.overlay{
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    background:  rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1000px){
+    .contenedorImagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .contenedorImagenes{
+        width: 90%;
+    }
+    .contenedorImagenes .imagen{
+        width: 48%;
+    }
+    
+    
+    .contenedorImagenes .imagen2{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen3{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen4{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen5{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen6{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen7{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen8{
+        width: 48%;
+    }
+    .contenedorImagenes .imagen9{
+        width: 48%;
+    }
+}
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(57, 51, 51);
+    font-size: 18px;
+    font-weight:lighter;
+    text-size-adjust: 100%;
+    padding: 9px;
+  
+}
+
+.parrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    padding: 9px;
+  
+}
+
+.parrafo3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    padding: 9px;
+  
 }
